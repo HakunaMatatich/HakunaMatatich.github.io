@@ -1,13 +1,11 @@
-
-
 @font-face {
-	font-family: 'TT Lakes Condensed';
-	src: url('TTLakesCondensed-Black.eot');
-	src: local('TT Lakes Condensed Black'), local('TTLakesCondensed-Black'),
-		url('TTLakesCondensed-Black.eot?#iefix') format('embedded-opentype'),
-		url('TTLakesCondensed-Black.woff') format('woff'),
-		url('TTLakesCondensed-Black.ttf') format('truetype');
-	font-weight: 900;
+	font-family: 'TT Lakes';
+	src: url('fonts/TTLakes-Medium.eot');
+	src: local('TT Lakes Medium'), local('TTLakes-Medium'),
+		url('fonts/TTLakes-Medium.eot?#iefix') format('embedded-opentype'),
+		url('fonts/TTLakes-Medium.woff') format('woff'),
+		url('fonts/TTLakes-Medium.ttf') format('truetype');
+	font-weight: 500;
 	font-style: normal;
 }
 * {
@@ -16,10 +14,12 @@
 	box-sizing: border-box;
 	list-style-type: none;
 	text-decoration: none;
+	font-family: 'TT Lakes';
+	font-weight: 500;
+	font-style: normal;
 }
 body {
 	background-color: #F8F8F8;
-	font-family: "TT Lakes", sans-serif;
 }
 
 .container {
